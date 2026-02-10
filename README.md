@@ -29,7 +29,7 @@ O projeto foi construído utilizando uma stack moderna, focada em performance e 
 O diferencial do projeto é o seu **backend autônomo** (`/api/cron.js`). Ele atua como um robô que varre o canal do YouTube e estrutura os dados automaticamente.
 
 ### 1. O Fluxo de Coleta
-O sistema conecta na API do YouTube e baixa os vídeos da playlist oficial de VODs.
+O sistema conecta na API do YouTube e verifica todos os vídeos da playlist de Campeonatos do Gaules: https://youtube.com/playlist?list=PLx8lfO-8sPff8u-Z4_nqokZOywNXMg2TW&si=DXBLIpaEa-OdjF-c
 
 ### 2. Processamento Inteligente (Regex)
 Como os títulos no YouTube não seguem um padrão rígido, desenvolvi um algoritmo de **Expressões Regulares (Regex)** para sanear os dados:
